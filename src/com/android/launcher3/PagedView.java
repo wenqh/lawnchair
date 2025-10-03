@@ -1342,7 +1342,7 @@ public abstract class PagedView<T extends View & PageIndicator> extends ViewGrou
                 mLastMotion = direction;
 
                 if (delta != 0) {
-                    mOrientationHandler.setPrimary(this, VIEW_SCROLL_BY, delta);
+                    //修改 屏蔽跟手效果 mOrientationHandler.setPrimary(this, VIEW_SCROLL_BY, delta);
 
                     if (mAllowOverScroll) {
                         final float pulledToX = oldScroll + delta;
@@ -1768,7 +1768,8 @@ public abstract class PagedView<T extends View & PageIndicator> extends ViewGrou
             abortScrollerAnimation(false);
         }
 
-        mScroller.startScroll(mOrientationHandler.getPrimaryScroll(this), 0, delta, 0, duration);
+        // 修改把duration改成了0
+        mScroller.startScroll(mOrientationHandler.getPrimaryScroll(this), 0, delta, 0, 0/*duration*/);
         updatePageIndicator();
 
         // Trigger a compute() to finish switching pages if necessary
