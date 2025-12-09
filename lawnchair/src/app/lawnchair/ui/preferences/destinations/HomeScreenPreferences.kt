@@ -78,7 +78,7 @@ fun HomeScreenPreferences(
             val isDeckLayoutAdapter = prefs2.deckLayout.getAdapter()
             ExpandAndShrink(visible = !isDeckLayoutAdapter.state.value) {
                 SwitchPreference(
-                    checked = !lockHomeScreenAdapter.state.value && addIconToHomeAdapter.state.value,
+                    checked = (!lockHomeScreenAdapter.state.value && addIconToHomeAdapter.state.value) || isDeckLayoutAdapter.state.value,
                     onCheckedChange = addIconToHomeAdapter::onChange,
                     label = stringResource(id = R.string.auto_add_shortcuts_label),
                     description = if (lockHomeScreenAdapter.state.value) stringResource(id = R.string.home_screen_locked) else null,
@@ -88,6 +88,11 @@ fun HomeScreenPreferences(
             GestureHandlerPreference(
                 adapter = prefs2.doubleTapGestureHandler.getAdapter(),
                 label = stringResource(id = R.string.gesture_double_tap),
+            )
+            SwitchPreference(
+                prefs.infiniteScrolling.getAdapter(),
+                label = stringResource(id = R.string.infinite_scrolling_label),
+                description = stringResource(id = R.string.infinite_scrolling_description),
             )
         }
         PreferenceGroup(heading = stringResource(id = R.string.minus_one)) {

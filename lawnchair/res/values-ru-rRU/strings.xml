@@ -109,7 +109,7 @@
     <string name="edit_label">Изменить</string>
     <string name="apply_label">Применить</string>
     <string name="delete_label">Удалить</string>
-    <string name="folder_list_note">Смахните влево для редактирования, Смахните вправо для удаления или Коснитесь для обновления элементов</string>
+    <string name="folder_list_note">Смахните влево для редактирования, Смахните вправо для удаления или коснитесь для обновления элементов</string>
     <string name="apps_in_folder_label">Скрыть приложения в папках</string>
     <string name="apps_in_folder_description">Скрывать приложения в папках из общего списка приложений</string>
     <string name="folders_filter_duplicates">Показывать только неповторяющиеся приложения</string>
@@ -459,6 +459,8 @@
     <string name="wallpaper_depth_effect_label">Эффект глубины обоев</string>
     <string name="wallpaper_depth_effect_description">Приближать и отдалять обои при переключении между приложениями</string>
     <string name="show_sys_ui_scrim">Тень сверху</string>
+    <string name="infinite_scrolling_label">Infinite scrolling</string>
+    <string name="infinite_scrolling_description">Swipe to loop between the first and last pages</string>
     <string name="home_screen_grid">Сетка главного экрана</string>
     <string name="home_screen_lock">Блокировать глав. экран</string>
     <string name="home_screen_unlock">Разблокировать глав. экран</string>

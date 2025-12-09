@@ -115,7 +115,7 @@
     <string name="folders_filter_duplicates">Afficher seulement les applis uniques</string>
     <string name="my_folder_label">Mon dossier</string>
     <!-- A11y description -->
-    <string name="accessibility_service_description">Pour effectuer certaines actions (telles que verrouiller votre téléphone) en un seul geste, Lawnchair a besoin des droits d\'accessibilité.\n\nMalgré que le privilège est accordé de force à tous les services d\'accessibilité, Lawnchair n\'observe pas les actions de l\'utilisateur et ignore tous les événements envoyés par le système.\n\nAfin de verrouiller votre téléphone ou ouvrir l\'écran Récents, Lawnchair utilise le service d\'accessibilité performGlobalAction.</string>
+    <string name="accessibility_service_description">Pour effectuer certaines actions (telles que verrouiller votre téléphone) en un seul geste, Lawnchair a besoin des droits d\'accessibilité.\n\nBien que le privilège soit accordé de force à tous les services d\'accessibilité, Lawnchair n\'observe pas les actions de l\'utilisateur et ignore tous les événements envoyés par le système.\n\nAfin de verrouiller votre téléphone ou ouvrir l\'écran Récents, Lawnchair utilise le service d\'accessibilité performGlobalAction.</string>
     <string name="x_with_y_count">%1$s (%2$d)</string>
     <string name="x_by_y">%1$d x %2$d</string>
     <string name="x_and_y">%1$s et %2$s</string>
@@ -223,8 +223,8 @@
     <string name="icon_shape_squircle">Carré rond</string>
     <string name="icon_shape_teardrop">Goutte</string>
     <!-- Icon shape (Material 3 Expressive) -->
-    <string name="icon_shape_four_sided_cookie">Cookie à quatre côtés</string>
-    <string name="icon_shape_seven_sided_cookie">Cookie à sept côtés</string>
+    <string name="icon_shape_four_sided_cookie">Biscuit à quatre côtés</string>
+    <string name="icon_shape_seven_sided_cookie">Biscuit à sept côtés</string>
     <string name="icon_shape_arch">Arche</string>
     <!-- Custom icon shapes -->
     <string name="custom_icon_shape">Forme d\'icône personnalisée</string>
@@ -240,7 +240,7 @@
     <string name="custom_icon_shape_bottom_right">En bas à droite</string>
     <string name="export_to_clipboard">Exporter vers le presse-papier</string>
     <string name="import_from_clipboard">Importer depuis le presse-papier</string>
-    <string name="icon_shape_clipboard_import_error">Le presse-papier ne contient pas de forme d\'icône valide</string>
+    <string name="icon_shape_clipboard_import_error">Le presse-papiers ne contient pas une forme d\'icône valide</string>
     <!-- Icon pack settings -->
     <string name="icon_pack">Pack d\'icônes</string>
     <string name="themed_icon_pack">Source des icônes à thème</string>
@@ -459,6 +459,8 @@
     <string name="wallpaper_depth_effect_label">Effet de profondeur du fond d\'écran</string>
     <string name="wallpaper_depth_effect_description">Zoom avant et arrière du fond d\'écran lors des transitions entre différentes zones du lanceur d\'applications</string>
     <string name="show_sys_ui_scrim">Ombre du haut</string>
+    <string name="infinite_scrolling_label">Défilement infini</string>
+    <string name="infinite_scrolling_description">Balayez l\'écran pour passer de la première à la dernière page et inversement</string>
     <string name="home_screen_grid">Grille de l\'écran d\'accueil</string>
     <string name="home_screen_lock">Verrouiller l\'écran d\'accueil</string>
     <string name="home_screen_unlock">Déverrouiller l\'écran d\'accueil</string>

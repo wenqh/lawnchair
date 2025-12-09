@@ -91,7 +91,7 @@
     <string name="wallpaper">Papel de Parede</string>
     <string name="style">Estilo</string>
     <string name="background_opacity">Opacidade do fundo</string>
-    <string name="pref_all_apps_search_bar_background">Separated Search bar background</string>
+    <string name="pref_all_apps_search_bar_background">Fundo da barra de pesquisa separada</string>
     <!-- Toast text and tips -->
     <string name="copied_toast">Copiado para a área de transferência</string>
     <string name="calculator_search_result_copied_toast">Resultado copiado para a área de transferência</string>
@@ -459,6 +459,8 @@
     <string name="wallpaper_depth_effect_label">Efeito de Profundidade do Plano de Fundo</string>
     <string name="wallpaper_depth_effect_description">Aumentar e diminuir a ampliação do papel de parede ao transitar entre as áreas do launcher</string>
     <string name="show_sys_ui_scrim">Sombra superior</string>
+    <string name="infinite_scrolling_label">Infinite scrolling</string>
+    <string name="infinite_scrolling_description">Swipe to loop between the first and last pages</string>
     <string name="home_screen_grid">Grade da tela inicial</string>
     <string name="home_screen_lock">Bloquear a tela inicial</string>
     <string name="home_screen_unlock">Desbloquear a tela inicial</string>
@@ -609,7 +611,7 @@
     <string name="search_algorithm_global_search_via_asi">Pesquisa global (via ASI)</string>
     <string name="custom_search_label">Nome do provedor de pesquisa</string>
     <string name="custom_search_url">URL do provedor de pesquisa</string>
-    <string name="custom_search_suggestions_url">Search suggestions URL</string>
+    <string name="custom_search_suggestions_url">Sugestões de busca URL</string>
     <string name="custom_search_input_hint">&#37;s será trocada pelo termo de pesquisa</string>
     <string name="custom_search_suggestions_hint">&#37;s será substituído pela consulta de pesquisa. Os resultados precisam estar em formato JSON OpenSearch.</string>
     <!-- Labels of each search result types -->
